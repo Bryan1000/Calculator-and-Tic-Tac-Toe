@@ -1,3 +1,65 @@
+.cal-skeleton{
+  display: flex;
+  background-color: purple;
+  height: 400px;
+  width: 405px;
+  flex-wrap: wrap;
+}
+
+.cal-buttons{
+  background-color: yellowgreen;
+  margin: 10px;
+  width: 380px;
+  text-align: center;
+  height: 280px;
+  font-size: 30px;
+  justify-content: center;
+}
+
+#nums{
+  width: 40px;
+  height: 40px;
+  background-color: lightgrey; 
+}
+
+#operations{
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: black;
+}
+
+#clear{
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}
+
+.cal-output{
+  background-color: purple;
+  height: 70px;
+  width: 500px;
+  margin: 20px;
+  font-size: 30px;
+}
+
+#output-box{
+  width: 359px;
+  height: 55px;
+  background-color: white;
+  justify-content: center;
+  align-content: center;
+  border-style: solid;
+  text-align: right;
+  font-size: larger;
+}
+
+#output{
+  position: relative;
+  top: 16px;
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -54,6 +116,8 @@ body {
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
+  height: 1000px;
+  width: 1000px;
 }
 
 .square {
